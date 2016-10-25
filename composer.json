@@ -1,0 +1,27 @@
+{
+	"name": "arillo/silverstripe-gridfield-is-published",
+	"description": "Extension for versioned dataobjects to visually show if they are published in the gridfield",
+	"type": "silverstripe-module",
+	"homepage": "https://github.com/arillo/silverstripe-gridfield-is-published",
+	"keywords": [
+		"silverstripe",
+		"dataobject",
+		"is-published"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Daniel Murcia",
+			"email": "dm@arillo.net"
+		}
+	],
+    "extra": {
+        "installer-name": "gridfield-is-published"
+    },
+	"require": {
+		"silverstripe/framework": "~3.1"
+	},
+	"support": {
+        "issues": "https://github.com/arillo/silverstripe-gridfield-is-published/issues"
+    }
+}

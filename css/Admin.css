@@ -1,0 +1,24 @@
+/* Color organism Grid-Field rows */
+/*============================================*/
+
+.ss-gridfield-item.is-unpublished {
+  opacity: .5;
+  transition: opacity .2s;
+}
+
+body .ss-gridfield-items .ss-gridfield-item.odd.is-unpublished:hover {
+  background: white;
+}
+
+body .ss-gridfield-items .ss-gridfield-item.even.is-unpublished:hover {
+  background: #f0f4f7;
+}
+
+.ss-gridfield-item.is-unpublished img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+body.cms .ss-gridfield-item.is-modified.is-published .col-reorder span {
+  background-color: #ff7f22;
+}

@@ -1,0 +1,9 @@
+---
+Name: gridfield-is-published
+---
+Injector:
+  GridField:
+    class: RowExtraClassesGridField
+LeftAndMain:
+  extra_requirements_css:
+    - gridfield-is-published/css/Admin.css
